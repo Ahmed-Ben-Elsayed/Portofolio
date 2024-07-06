@@ -1,0 +1,64 @@
+.about p {
+    width: 90%;
+    line-height: 1.6;
+}
+.about{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: max-content;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+.about span{
+    width:200px;
+    height: 3px;
+    background-image: linear-gradient(90deg, #ff9c1b, #eb1d08);
+    position: absolute;
+    bottom: 21px;
+    left:150px;
+}
+.about h1{
+    position: relative;
+}.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.skills{
+    background-color:#FFEBD0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}.skills p {
+    font-size: 15px;
+    text-align: center;
+}
+.skills h4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.two{
+    background-color: #F2F7FC;
+}
+.two .icon-side{
+    color: #0000FF;
+}
+.skill .skills:hover{
+    transition: 0.5s;
+    transform: scale(1.03);
+}

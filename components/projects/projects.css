@@ -1,0 +1,162 @@
+.projects p {
+    width: 90%;
+    line-height: 1.6;
+}
+.projects{
+  width: 70%;
+  padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: max-content;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.projects span{
+    width:200px;
+    height: 3px;
+    background-image: linear-gradient(90deg, #ff9c1b, #eb1d08);
+    position: absolute;
+    bottom: 19px;
+    left:80px;
+}
+.projects h1{
+    position: relative;
+}
+   .projects .project{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px !important;;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects .project .card-front img{
+    width: 100% !important;
+
+    object-fit: contain;
+  }
+   .project a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .project a p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .projects   .card {
+    position: relative;
+    width:400px;
+    margin: auto;
+    height: max-content;
+    background-image: linear-gradient(90deg, #ff9c1b, #eb1d08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects .project .card img{
+    height:220px;
+    object-fit: contain;
+    width:400px;
+  }
+  
+   .projects .card::before,
+  .projects .card::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(210, 130, 17, 0.803);
+    transition: all 0.5s;
+  }
+  
+  .projects .card::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+  }
+  
+   .projects .card::after {
+    bottom: 0;
+    left: 0;
+    border-radius: 0 100%  0 15px;
+  }
+  
+   .projects .card:hover::before,
+  .card:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s;
+  }
+  
+  .projects .card:hover:after {
+    content: "Ecommerce by react js  Take a look  ";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .projects .two:hover:after {
+    content: "Ecommerce by html css  only  ";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .projects .three:hover:after {
+    content: "Islamic APP  BY react js";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .projects .four:hover:after {
+    content: "Book Shop by html css js ";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .projects .five:hover:after {
+    content: "Resturant by html css only ";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .projects .sex:hover:after {
+    content: "Portofolio by html css js jqury";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .projects .seven:hover:after {
+    content: "Gym by html css";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
